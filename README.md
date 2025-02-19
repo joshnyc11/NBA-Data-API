@@ -10,7 +10,7 @@ What you need:
 
 IDE - IntelliJ preferred OR Java 17+ installed on command prompt or terminal.
 
-MySQL WorkBench 8.0 + or DBeaver
+MySQL 8.0+ AND WorkBench 8.0+ or DBeaver
 
 
 If using command prompt or terminal:
@@ -27,8 +27,17 @@ java -jar target/NBAJNProject-0.0.1-SNAPSHOT.jar
  
 ```bash
 DumpNBADB.sql
-
 ```
+
+If using IDE:
+
+1. Clone or download the project.
+
+2. Open in IntelliJ and select SDK Java 17 or higher.
+
+
+3. Run the NBAjnProjectApplication class.
+   
 ## API Reference
 
 #### Get all player statistics 
