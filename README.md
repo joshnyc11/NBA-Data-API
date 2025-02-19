@@ -1,5 +1,5 @@
 
-# NBA Rest API 
+# NBA Data Rest API 
 
 A brief description of what this project does and who it's for
 
