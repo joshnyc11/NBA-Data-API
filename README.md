@@ -17,26 +17,30 @@ If using command prompt or terminal:
 
 1. Download Java 17+ 
 
-2. Run JAR File in command prompt/terminal
-
-```bash
-java -jar target/NBAJNProject-0.0.1-SNAPSHOT.jar
-  
 ```
-3. Create new SQL Database and import database dump.  
+2. Create new SQL Database and import database dump.  
  
 ```bash
 DumpNBADB.sql
 ```
 
+3. Run JAR File in command prompt/terminal
+
+```bash
+java -jar target/NBAJNProject-0.0.1-SNAPSHOT.jar
+  
+```
 If using IDE:
 
 1. Clone or download the project.
 
-2. Open in IntelliJ and select SDK Java 17 or higher.
+2. Open MySQL Workbench or DBeaver, create a new database.
 
+3. Import database dump file ( DumpNBADB.sql)
 
-3. Run the NBAjnProjectApplication class.
+4. Open in IntelliJ and select SDK Java 17 or higher.
+
+5. Run the NBAjnProjectApplication class.
    
 ## API Reference
 
