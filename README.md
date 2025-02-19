@@ -3,7 +3,32 @@
 
 A brief description of what this project does and who it's for
 
-A Rest API that returns statistics for NBA players and franchises. End of Season awards and All Star Teams included. Dated from 1947-48 Season to 2023-24 season. 
+A Rest API that returns statistics for NBA players and franchises. End of Season awards and All Star Teams included. Dated from 1947-48 Season through 2023-24 season. 
+## Installation
+
+What you need: 
+
+IDE - IntelliJ preferred OR Java 17+ installed on command prompt or terminal.
+
+MySQL WorkBench 8.0 + or DBeaver
+
+
+If using command prompt or terminal:
+
+1. Download Java 17+ 
+
+2. Run JAR File in command prompt/terminal
+
+```bash
+java -jar target/NBAJNProject-0.0.1-SNAPSHOT.jar
+  
+```
+3. Create new SQL Database and import database dump.  
+ 
+```bash
+DumpNBADB.sql
+
+```
 ## API Reference
 
 #### Get all player statistics 
@@ -118,9 +143,11 @@ A Rest API that returns statistics for NBA players and franchises. End of Season
 
 
 #### Get All-Rookie Teams
-```
-http
+
+
+```http 
   GET /api/season-awards/all-nba-rookie-teams
+
 ```
 
 | Parameter | Type     | Description                       |
@@ -129,28 +156,25 @@ http
 
 
 #### Get All-Defensive Teams
-```
-http
-  GET /api/season-awards/all-defense-teams
-```
 
+```http
+GET /api/season-awards/all-defense-teams
+```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `  None   | `N/A    | Returns All-Defensive Teams(1st and 2nd).
 
-#### Get All- Defense First Teams
-```
-http
+#### Get All-Defense First Teams
+```http
   GET /api/season-awards/all-defense-first-team
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `  None   | `N/A    | Returns All-Defensive First Teams.
+| `  None   | `N/A    | Returns Al-Defensive First Teams.
 
 #### Get All-Defense Second Teams
-```
-http
+```http
   GET /api/season-awards/all-defense-second-team
 ```
 
@@ -199,4 +223,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [MIT](https://choosealicense.com/licenses/mit/)
-
