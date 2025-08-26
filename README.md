@@ -111,7 +111,7 @@ If using IDE:
 
 #### Get all Season Award winners  such as MVP, Defensive Player of the Year, All-NBA, etc.
 ```http
-  GET /api/season-awards
+  GET /api/season- awards
 ```
 
 | Parameter | Type     | Description                       |
